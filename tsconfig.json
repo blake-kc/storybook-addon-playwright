@@ -4,13 +4,10 @@
     "preserveConstEnums": true,
     "skipLibCheck": true,
     "declaration": true,
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "strict": true,
     "target": "es6",
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
@@ -38,11 +35,7 @@
     "__manual_mocks__/**/*",
     "middleware.d.ts",
     "configs.d.ts",
-    "stories/**/*",
+    "stories/**/*"
   ],
-  "exclude": [
-    "**/.storybook/**/*",
-    "node_modules",
-    "**/node_modules/*",
-  ]
+  "exclude": ["**/.storybook/**/*", "node_modules", "**/node_modules/*"]
 }
